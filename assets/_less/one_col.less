@@ -1,0 +1,30 @@
+@import 'reset.less';
+@import 'grid.less';
+
+// GRID //
+
+// Specify the number of columns and set column and gutter widths
+@columns: 12;
+@column-width: 60;
+@gutter-width: 20;
+
+// Remove the definition below for a pixel-based layout
+@total-width: 100%;
+
+// Layout //
+
+#wrapper{
+	.column(12);
+}
+header{
+	.column(12);
+}
+section{
+	.column(12);
+}
+section img{
+	margin: 0 5px;
+}
+footer{
+	.column(12);
+}

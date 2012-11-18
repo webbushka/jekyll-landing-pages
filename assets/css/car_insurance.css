@@ -1,0 +1,158 @@
+.animate {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+.block {
+  display: block;
+}
+.boxfix {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  zoom: 1;
+}
+.ib {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  _height: 1%;
+  vertical-align: top;
+}
+.ir {
+  display: block;
+  text-indent: -999em;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  text-align: left;
+  direction: ltr;
+}
+.inline {
+  display: inline;
+}
+.box-bevel {
+  -moz-box-shadow: 0 1px 0 #eee;
+  -webkit-box-shadow: 0 1px 0 #eee;
+  box-shadow: 0 1px 0 #eee;
+}
+.full {
+  width: 100%;
+}
+.left {
+  float: left;
+}
+.link {
+  text-decoration: none;
+}
+.link-hover {
+  text-decoration: underline;
+}
+.right {
+  float: right;
+}
+.show_hide {
+  display: none;
+}
+.third {
+  width: 33%;
+}
+a:link {
+  -webkit-tap-highlight-color: #FF5E99;
+}
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+button {
+  width: auto;
+  overflow: visible;
+}
+html {
+  overflow-y: scroll;
+}
+.ie7 img {
+  -ms-interpolation-mode: bicubic;
+}
+label,
+input[type=button],
+input[type=submit],
+button {
+  cursor: pointer;
+}
+sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+textarea {
+  overflow: auto;
+}
+em {
+  font-style: italic;
+  text-transform: uppercase;
+}
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1em;
+  font-family: 'Georgia', 'Times', serif;
+}
+h1 {
+  font-size: 200%;
+  font-weight: bold;
+}
+h2 {
+  font-size: 185%;
+  font-weight: bold;
+}
+h3 {
+  font-size: 160%;
+  font-style: italic;
+  font-weight: bold;
+}
+h4 {
+  font-size: 120%;
+  font-weight: normal;
+}
+p {
+  font-size: 100%;
+  padding-top: 8px;
+  line-height: 1.3em;
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+}
+a,
+a:visited {
+  text-decoration: none;
+  text-shadow: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+strong {
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  font-weight: bold;
+}
+em {
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  font-style: italic;
+}

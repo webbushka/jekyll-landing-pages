@@ -1,0 +1,39 @@
+// NON SEMANTIC HELPER CLASSES
+
+.animate{-webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; transition: all 1s ease-in-out;}
+.block{display: block;}
+.boxfix{-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.clearfix:before, .clearfix:after {content: "\0020"; display: block; height: 0; visibility: hidden;}
+.clearfix:after {clear: both;}
+.clearfix {clear: both; zoom: 1;}
+.ib{display:inline-block; *display:inline; zoom:1; _height:1%; vertical-align:top;}
+.ir{display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr;}
+.inline{display: inline;}
+
+// GLOBAL STYLE CLASSES
+
+.box-bevel{-moz-box-shadow: 0 1px 0 #eee; -webkit-box-shadow: 0 1px 0 #eee; box-shadow: 0 1px 0 #eee;}
+.full{width: 100%;}
+.left{float: left;}
+.link{text-decoration: none;}
+.link-hover{text-decoration: underline;}
+.radius(@radius:3px){-webkit-border-radius: @radius; -moz-border-radius: @radius; border-radius: @radius;}
+.right{float: right;}
+.show_hide{display: none;}
+.third{width: 33%;}
+.text-shadow(@xunit: 1px, @yunit: 1px, @inset: 0px, @color: rgba(0,0,0,0.5)){text-shadow: @xunit, @yunit, @inset @color;}
+
+// GLOBAL GENERAL DEFAULTS
+
+*{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+html {overflow-y: scroll; font-size: 62.5%;}  
+a:link {-webkit-tap-highlight-color: #FF5E99;}
+button, input, select, textarea {margin: 0;}
+button {width: auto; overflow: visible;}
+html {overflow-y: scroll;}
+.ie7 img {-ms-interpolation-mode: bicubic;}
+label, input[type=button], input[type=submit], button {cursor: pointer;} 
+sub {vertical-align: sub; font-size: smaller;}
+sup {vertical-align: super; font-size: smaller;}
+textarea {overflow: auto;}
+em {font-style: italic; text-transform: uppercase;}

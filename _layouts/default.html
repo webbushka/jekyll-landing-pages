@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<title>{{page.title}}</title>
+		<!-- favicon 16x16 -->
+			<link rel="shortcut icon" href="favicon.ico">
+		<!-- css -->
+		<!-- pull in the correct structure -->
+			{% if page.structure %} <link rel="stylesheet" href="/assets/css/{{page.structure}}.css">{% endif %}
+		<!-- pull in custom css -->
+			{% if page.css %} <link rel="stylesheet" href="/assets/css/{{page.css}}.css">{% endif %}
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+			{{content}}
+			<footer>
+				<p>
+					Copyright &#169; 2012 {{page.domain}}. All Rights Reserved. 
+					{% if page.privacy %} <a href="index.html" >{{page.domain}}</a> |
+					{% else %} <a href="privacy.html" >Privacy Policy</a> | {% endif %}
+					<a href="mailto:info@marketingmadeeasyllc.com" >Contact</a>
+				</p>
+			</footer>
+	</body>
+</html>
