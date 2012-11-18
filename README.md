@@ -43,6 +43,10 @@ The landing page templates are setup to use a one, two or three column style flu
 5. You will need to create a new css file for each project. The template.css file can be copied to your new file in order to help speed up the process. The custom.css file needs to at least have the following code:
 
 		@import: 'global.less';
+
+6. Add a link to your new site in the index.html @ the root, the link just needs to reference the directory for example:
+
+		<a href="/example_site/">Example Site</a>
 		
 Codekit Settings
 ----------------
